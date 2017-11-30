@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.grafico = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comecar = new System.Windows.Forms.Button();
             this.labelHoraExame = new System.Windows.Forms.Label();
@@ -41,22 +41,22 @@
             // 
             // grafico
             // 
-            chartArea4.Name = "ChartArea1";
-            this.grafico.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.grafico.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.grafico.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.grafico.Legends.Add(legend1);
             this.grafico.Location = new System.Drawing.Point(12, 43);
             this.grafico.Name = "grafico";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Legend = "Legend1";
-            series7.Name = "Primeiro Exame";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "Segundo Exame";
-            this.grafico.Series.Add(series7);
-            this.grafico.Series.Add(series8);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "Primeiro Exame";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.Name = "Segundo Exame";
+            this.grafico.Series.Add(series1);
+            this.grafico.Series.Add(series2);
             this.grafico.Size = new System.Drawing.Size(873, 376);
             this.grafico.TabIndex = 0;
             this.grafico.Text = "grafico";

@@ -131,7 +131,7 @@ namespace TrabalhoEMG
             datarow[Dados.CLIENTS_GENDER] = client.Gender;
             datarow[Dados.CLIENTS_ID] = client.Id;
 
-            dados.TableClients.Rows.Add(datarow);
+            
             dados.save();
         }
 

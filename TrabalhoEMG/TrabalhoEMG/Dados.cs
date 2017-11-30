@@ -26,7 +26,7 @@ namespace TrabalhoEMG
         */
         DataSet dataSet;
         DataTable tableClients;
-        DataTable tableMedicactions;
+        //DataTable tableMedicactions;
 
         String filePath = "EMGClientes.xml";
 
@@ -44,7 +44,7 @@ namespace TrabalhoEMG
             }
         }
 
-        public DataTable TableMedicactions
+       /* public DataTable TableMedicactions
         {
             get
             {
@@ -55,7 +55,7 @@ namespace TrabalhoEMG
             {
                 tableMedicactions = value;
             }
-        }
+        }*/
 
         public DataSet DataSet
         {
@@ -80,7 +80,7 @@ namespace TrabalhoEMG
             TableClients.Columns.Add(CLIENTS_GENDER);
             TableClients.Columns.Add(CLIENTS_ID);
 
-          /*  TableMedicactions = new DataTable(DATATABLE_TERAPIES);
+          /*TableMedicactions = new DataTable(DATATABLE_TERAPIES);
             TableMedicactions.Columns.Add(MEDICATIONS_NAME);
             TableMedicactions.Columns.Add(MEDICATIONS_QTD);
             TableMedicactions.Columns.Add(MEDICATIONS_POSOLOGY);

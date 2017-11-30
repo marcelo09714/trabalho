@@ -2,7 +2,6 @@ F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\Tr
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\TrabalhoEMG.exe
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\TrabalhoEMG.pdb
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.csprojResolveAssemblyReference.cache
-F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Form1.resources
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Properties.Resources.resources
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.csproj.GenerateResource.Cache
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.exe
@@ -29,3 +28,13 @@ C:\Users\Marcelo Ferreira\Desktop\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.
 C:\Users\Marcelo Ferreira\Desktop\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.csproj.GenerateResource.Cache
 C:\Users\Marcelo Ferreira\Desktop\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Exame.resources
 C:\Users\Marcelo Ferreira\Desktop\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.SplashScreen.resources
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Exame.resources
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.SplashScreen.resources
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\BITalino_x86.dll
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\BITalino_x86.xml
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.dll
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.dll
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.pdb
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.xml
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.pdb
+F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.xml
