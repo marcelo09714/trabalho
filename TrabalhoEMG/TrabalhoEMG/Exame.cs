@@ -32,25 +32,37 @@ namespace TrabalhoEMG
 
         public Exame(Cliente cliente)
         {
+            //serve para aparecer o nome do cliente em cima 
             this.cliente = cliente;
             InitializeComponent();
             this.Text = cliente.Name;
 
-           /* DataView dataView = dataHelper.DataSet.Tables[DataHelper.DATATABLE_TERAPIES].DefaultView;
-            dataView.RowFilter = string.Format("[{0}] = '{1}'", DataHelper.MEDICATIONS_CLIENT_ID, client.Id);
-            dataGridViewTerapies.DataSource = dataView;
-            */
+            /* DataView dataView = dataHelper.DataSet.Tables[DataHelper.DATATABLE_TERAPIES].DefaultView;
+             dataView.RowFilter = string.Format("[{0}] = '{1}'", DataHelper.MEDICATIONS_CLIENT_ID, client.Id);
+             dataGridViewTerapies.DataSource = dataView;
+             */
 
             //Aparecer as horas e o dia no programa
             labelDataExame.Text = DateTime.Now.ToLongDateString();
-            labelHoraExame.Text = DateTime.Now.ToLongTimeString();
-
+           
             //Pôr a parte de trás das labels transparente
             labelDataExame.BackColor = Color.Transparent;
             labelHoraExame.BackColor = Color.Transparent;
+            botaoRetroceder.BackColor = Color.Transparent;
+
+            //conta o tempo
+            Timer timer = new Timer();
+            timer.Interval = 1000;
+            timer.Start();
+            timer.Tick += Timer_Tick;
+        }
+        //contador de tempo
+        void Timer_Tick(object sender, EventArgs e)
+        {
+            labelHoraExame.Text = DateTime.Now.ToLongTimeString();
         }
 
-        private void comecar_Click(object sender, EventArgs e)
+    private void comecar_Click(object sender, EventArgs e)
         {
             //Create Plotview object
             PlotView myPlot = new PlotView();
@@ -82,6 +94,16 @@ namespace TrabalhoEMG
                 grafico.Series["Segundo Exame"].Points.AddXY(i, DataArray2[i]);
             }
             */
+        }
+
+        //botao que serve para voltar atrás e esconde a página onde estavamos 
+        private void botaoRetroceder_Click(object sender, EventArgs e)
+        {
+            ListaExames listaexames = new ListaExames(cliente);
+
+            this.Hide();
+            listaexames.ShowDialog();
+
         }
     }
 }

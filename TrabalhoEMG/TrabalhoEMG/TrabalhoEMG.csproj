@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BITalino_x86">
-      <HintPath>..\..\..\bitalino\dotNet-api-master\BITalino_x86.dll</HintPath>
-    </Reference>
     <Reference Include="OxyPlot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=638079a8f0bd61e9, processorArchitecture=MSIL">
       <HintPath>..\packages\OxyPlot.Core.1.0.0\lib\net45\OxyPlot.dll</HintPath>
       <Private>True</Private>
@@ -66,6 +63,17 @@
     <Compile Include="Exame.Designer.cs">
       <DependentUpon>Exame.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaExames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaExames.Designer.cs">
+      <DependentUpon>ListaExames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,19 +92,17 @@
     <EmbeddedResource Include="Exame.resx">
       <DependentUpon>Exame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaExames.resx">
+      <DependentUpon>ListaExames.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Registo.resx">
       <DependentUpon>Registo.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,9 +121,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\trabalho.JPG" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\imagem1.JPG" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +128,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\11530_beautiful-abstract-backgrounds-design-elements_5000x3750_h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8bb42ed9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao-quot-voltar_318-108687.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

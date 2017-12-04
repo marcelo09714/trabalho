@@ -36,6 +36,7 @@
             this.comecar = new System.Windows.Forms.Button();
             this.labelHoraExame = new System.Windows.Forms.Label();
             this.labelDataExame = new System.Windows.Forms.Label();
+            this.botaoRetroceder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grafico)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             this.grafico.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.grafico.Legends.Add(legend1);
-            this.grafico.Location = new System.Drawing.Point(12, 43);
+            this.grafico.Location = new System.Drawing.Point(12, 61);
             this.grafico.Name = "grafico";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
@@ -57,7 +58,7 @@
             series2.Name = "Segundo Exame";
             this.grafico.Series.Add(series1);
             this.grafico.Series.Add(series2);
-            this.grafico.Size = new System.Drawing.Size(873, 376);
+            this.grafico.Size = new System.Drawing.Size(623, 229);
             this.grafico.TabIndex = 0;
             this.grafico.Text = "grafico";
             // 
@@ -65,7 +66,7 @@
             // 
             this.comecar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comecar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comecar.Location = new System.Drawing.Point(12, 518);
+            this.comecar.Location = new System.Drawing.Point(12, 316);
             this.comecar.Name = "comecar";
             this.comecar.Size = new System.Drawing.Size(96, 36);
             this.comecar.TabIndex = 1;
@@ -90,11 +91,23 @@
             this.labelDataExame.AutoSize = true;
             this.labelDataExame.BackColor = System.Drawing.Color.White;
             this.labelDataExame.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDataExame.Location = new System.Drawing.Point(700, 9);
+            this.labelDataExame.Location = new System.Drawing.Point(450, 9);
             this.labelDataExame.Name = "labelDataExame";
             this.labelDataExame.Size = new System.Drawing.Size(91, 18);
             this.labelDataExame.TabIndex = 7;
             this.labelDataExame.Text = "DiaMesAno";
+            // 
+            // botaoRetroceder
+            // 
+            this.botaoRetroceder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.botaoRetroceder.BackgroundImage = global::TrabalhoEMG.Properties.Resources._8bb42ed9;
+            this.botaoRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.botaoRetroceder.Location = new System.Drawing.Point(135, 316);
+            this.botaoRetroceder.Name = "botaoRetroceder";
+            this.botaoRetroceder.Size = new System.Drawing.Size(41, 36);
+            this.botaoRetroceder.TabIndex = 10;
+            this.botaoRetroceder.UseVisualStyleBackColor = true;
+            this.botaoRetroceder.Click += new System.EventHandler(this.botaoRetroceder_Click);
             // 
             // Exame
             // 
@@ -102,12 +115,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrabalhoEMG.Properties.Resources.Vm1lKT;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(897, 566);
+            this.ClientSize = new System.Drawing.Size(647, 364);
+            this.Controls.Add(this.botaoRetroceder);
             this.Controls.Add(this.labelDataExame);
             this.Controls.Add(this.labelHoraExame);
             this.Controls.Add(this.comecar);
             this.Controls.Add(this.grafico);
             this.Name = "Exame";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exame";
             ((System.ComponentModel.ISupportInitialize)(this.grafico)).EndInit();
             this.ResumeLayout(false);
@@ -121,5 +136,6 @@
         private System.Windows.Forms.Button comecar;
         private System.Windows.Forms.Label labelHoraExame;
         private System.Windows.Forms.Label labelDataExame;
+        private System.Windows.Forms.Button botaoRetroceder;
     }
 }

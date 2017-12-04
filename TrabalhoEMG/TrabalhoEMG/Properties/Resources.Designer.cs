@@ -73,9 +73,9 @@ namespace TrabalhoEMG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap imagem1 {
+        internal static System.Drawing.Bitmap _8bb42ed9 {
             get {
-                object obj = ResourceManager.GetObject("imagem1", resourceCulture);
+                object obj = ResourceManager.GetObject("8bb42ed9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,19 @@ namespace TrabalhoEMG.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap trabalho {
+        internal static System.Drawing.Bitmap botao_quot_voltar_318_108687 {
             get {
-                object obj = ResourceManager.GetObject("trabalho", resourceCulture);
+                object obj = ResourceManager.GetObject("botao-quot-voltar_318-108687", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem1 {
+            get {
+                object obj = ResourceManager.GetObject("imagem1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

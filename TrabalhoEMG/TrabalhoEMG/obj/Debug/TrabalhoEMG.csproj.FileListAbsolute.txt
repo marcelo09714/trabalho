@@ -38,3 +38,21 @@ F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\Ox
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.xml
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.pdb
 F:\Escola\2º Ano\Trabalho, prog,esta,eletr\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\TrabalhoEMG.exe.config
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.exe
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.pdb
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\TrabalhoEMG.exe
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\TrabalhoEMG.pdb
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.dll
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.pdb
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.xml
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Exame.resources
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.ListaExames.resources
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.SplashScreen.resources
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Properties.Resources.resources
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.Registo.resources
+C:\Users\Ana\Downloads\TrabalhoEMG\TrabalhoEMG\obj\Debug\TrabalhoEMG.csproj.GenerateResource.Cache

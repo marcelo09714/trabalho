@@ -53,7 +53,7 @@
             this.dataGridViewClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewClientes.Location = new System.Drawing.Point(12, 30);
             this.dataGridViewClientes.Name = "dataGridViewClientes";
-            this.dataGridViewClientes.Size = new System.Drawing.Size(973, 424);
+            this.dataGridViewClientes.Size = new System.Drawing.Size(623, 197);
             this.dataGridViewClientes.TabIndex = 0;
             this.dataGridViewClientes.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewClientes_CellMouseDoubleClick);
             // 
@@ -61,7 +61,7 @@
             // 
             this.Editar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Editar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Editar.Location = new System.Drawing.Point(829, 556);
+            this.Editar.Location = new System.Drawing.Point(479, 329);
             this.Editar.Name = "Editar";
             this.Editar.Size = new System.Drawing.Size(75, 27);
             this.Editar.TabIndex = 1;
@@ -73,7 +73,7 @@
             // 
             this.Apagar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Apagar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Apagar.Location = new System.Drawing.Point(910, 556);
+            this.Apagar.Location = new System.Drawing.Point(560, 329);
             this.Apagar.Name = "Apagar";
             this.Apagar.Size = new System.Drawing.Size(75, 27);
             this.Apagar.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             this.Adicionar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Adicionar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Adicionar.Location = new System.Drawing.Point(736, 556);
+            this.Adicionar.Location = new System.Drawing.Point(386, 329);
             this.Adicionar.Name = "Adicionar";
             this.Adicionar.Size = new System.Drawing.Size(87, 27);
             this.Adicionar.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.labelData.AutoSize = true;
             this.labelData.BackColor = System.Drawing.Color.White;
             this.labelData.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelData.Location = new System.Drawing.Point(794, 9);
+            this.labelData.Location = new System.Drawing.Point(444, 9);
             this.labelData.Name = "labelData";
             this.labelData.Size = new System.Drawing.Size(91, 18);
             this.labelData.TabIndex = 4;
@@ -123,7 +123,7 @@
             this.labelNome.BackColor = System.Drawing.Color.White;
             this.labelNome.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNome.ForeColor = System.Drawing.Color.White;
-            this.labelNome.Location = new System.Drawing.Point(9, 471);
+            this.labelNome.Location = new System.Drawing.Point(9, 244);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(54, 18);
             this.labelNome.TabIndex = 6;
@@ -136,7 +136,7 @@
             this.labelDataNascimento.BackColor = System.Drawing.Color.White;
             this.labelDataNascimento.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDataNascimento.ForeColor = System.Drawing.Color.White;
-            this.labelDataNascimento.Location = new System.Drawing.Point(9, 505);
+            this.labelDataNascimento.Location = new System.Drawing.Point(9, 278);
             this.labelDataNascimento.Name = "labelDataNascimento";
             this.labelDataNascimento.Size = new System.Drawing.Size(169, 18);
             this.labelDataNascimento.TabIndex = 7;
@@ -149,7 +149,7 @@
             this.labelGenero.BackColor = System.Drawing.Color.White;
             this.labelGenero.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGenero.ForeColor = System.Drawing.Color.White;
-            this.labelGenero.Location = new System.Drawing.Point(9, 534);
+            this.labelGenero.Location = new System.Drawing.Point(9, 307);
             this.labelGenero.Name = "labelGenero";
             this.labelGenero.Size = new System.Drawing.Size(68, 18);
             this.labelGenero.TabIndex = 8;
@@ -159,19 +159,18 @@
             // 
             this.textBoxNome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxNome.Location = new System.Drawing.Point(184, 469);
+            this.textBoxNome.Location = new System.Drawing.Point(184, 242);
             this.textBoxNome.Name = "textBoxNome";
-            this.textBoxNome.Size = new System.Drawing.Size(801, 20);
+            this.textBoxNome.Size = new System.Drawing.Size(451, 20);
             this.textBoxNome.TabIndex = 9;
-            this.textBoxNome.Text = "Introduza o seu nome...";
             // 
             // dateTimePicker
             // 
             this.dateTimePicker.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePicker.Location = new System.Drawing.Point(184, 505);
+            this.dateTimePicker.Location = new System.Drawing.Point(184, 278);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(801, 20);
+            this.dateTimePicker.Size = new System.Drawing.Size(451, 20);
             this.dateTimePicker.TabIndex = 10;
             // 
             // radioButtonMasculino
@@ -180,8 +179,8 @@
             this.radioButtonMasculino.AutoSize = true;
             this.radioButtonMasculino.BackColor = System.Drawing.Color.White;
             this.radioButtonMasculino.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonMasculino.ForeColor = System.Drawing.Color.White;
-            this.radioButtonMasculino.Location = new System.Drawing.Point(184, 536);
+            this.radioButtonMasculino.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.radioButtonMasculino.Location = new System.Drawing.Point(184, 309);
             this.radioButtonMasculino.Name = "radioButtonMasculino";
             this.radioButtonMasculino.Size = new System.Drawing.Size(106, 22);
             this.radioButtonMasculino.TabIndex = 11;
@@ -195,8 +194,8 @@
             this.radioButtonFeminino.AutoSize = true;
             this.radioButtonFeminino.BackColor = System.Drawing.Color.White;
             this.radioButtonFeminino.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonFeminino.ForeColor = System.Drawing.Color.White;
-            this.radioButtonFeminino.Location = new System.Drawing.Point(297, 536);
+            this.radioButtonFeminino.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.radioButtonFeminino.Location = new System.Drawing.Point(297, 309);
             this.radioButtonFeminino.Name = "radioButtonFeminino";
             this.radioButtonFeminino.Size = new System.Drawing.Size(98, 22);
             this.radioButtonFeminino.TabIndex = 12;
@@ -210,7 +209,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrabalhoEMG.Properties.Resources._11530_beautiful_abstract_backgrounds_design_elements_5000x3750_h;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(997, 591);
+            this.ClientSize = new System.Drawing.Size(647, 364);
             this.Controls.Add(this.radioButtonFeminino);
             this.Controls.Add(this.radioButtonMasculino);
             this.Controls.Add(this.dateTimePicker);
