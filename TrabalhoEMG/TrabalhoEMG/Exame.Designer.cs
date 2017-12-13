@@ -28,39 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.grafico = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comecar = new System.Windows.Forms.Button();
             this.labelHoraExame = new System.Windows.Forms.Label();
             this.labelDataExame = new System.Windows.Forms.Label();
             this.botaoRetroceder = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.grafico)).BeginInit();
+            this.buttonGravar = new System.Windows.Forms.Button();
+            this.textBoxNomeExame = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // grafico
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.grafico.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.grafico.Legends.Add(legend1);
-            this.grafico.Location = new System.Drawing.Point(12, 61);
-            this.grafico.Name = "grafico";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Legend = "Legend1";
-            series1.Name = "Primeiro Exame";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Legend = "Legend1";
-            series2.Name = "Segundo Exame";
-            this.grafico.Series.Add(series1);
-            this.grafico.Series.Add(series2);
-            this.grafico.Size = new System.Drawing.Size(623, 229);
-            this.grafico.TabIndex = 0;
-            this.grafico.Text = "grafico";
             // 
             // comecar
             // 
@@ -100,14 +75,43 @@
             // botaoRetroceder
             // 
             this.botaoRetroceder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.botaoRetroceder.BackColor = System.Drawing.Color.Transparent;
             this.botaoRetroceder.BackgroundImage = global::TrabalhoEMG.Properties.Resources._8bb42ed9;
             this.botaoRetroceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.botaoRetroceder.Location = new System.Drawing.Point(135, 316);
+            this.botaoRetroceder.Location = new System.Drawing.Point(253, 317);
             this.botaoRetroceder.Name = "botaoRetroceder";
             this.botaoRetroceder.Size = new System.Drawing.Size(41, 36);
             this.botaoRetroceder.TabIndex = 10;
-            this.botaoRetroceder.UseVisualStyleBackColor = true;
+            this.botaoRetroceder.UseVisualStyleBackColor = false;
             this.botaoRetroceder.Click += new System.EventHandler(this.botaoRetroceder_Click);
+            // 
+            // buttonGravar
+            // 
+            this.buttonGravar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.buttonGravar.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonGravar.Location = new System.Drawing.Point(130, 316);
+            this.buttonGravar.Name = "buttonGravar";
+            this.buttonGravar.Size = new System.Drawing.Size(96, 36);
+            this.buttonGravar.TabIndex = 11;
+            this.buttonGravar.Text = "Gravar";
+            this.buttonGravar.UseVisualStyleBackColor = true;
+            this.buttonGravar.Click += new System.EventHandler(this.buttonGravar_Click);
+            // 
+            // textBoxNomeExame
+            // 
+            this.textBoxNomeExame.Location = new System.Drawing.Point(412, 326);
+            this.textBoxNomeExame.Name = "textBoxNomeExame";
+            this.textBoxNomeExame.Size = new System.Drawing.Size(223, 20);
+            this.textBoxNomeExame.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(319, 329);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Nome Do Exame";
             // 
             // Exame
             // 
@@ -116,26 +120,28 @@
             this.BackgroundImage = global::TrabalhoEMG.Properties.Resources.Vm1lKT;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(647, 364);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBoxNomeExame);
+            this.Controls.Add(this.buttonGravar);
             this.Controls.Add(this.botaoRetroceder);
             this.Controls.Add(this.labelDataExame);
             this.Controls.Add(this.labelHoraExame);
             this.Controls.Add(this.comecar);
-            this.Controls.Add(this.grafico);
             this.Name = "Exame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exame";
-            ((System.ComponentModel.ISupportInitialize)(this.grafico)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataVisualization.Charting.Chart grafico;
         private System.Windows.Forms.Button comecar;
         private System.Windows.Forms.Label labelHoraExame;
         private System.Windows.Forms.Label labelDataExame;
         private System.Windows.Forms.Button botaoRetroceder;
+        private System.Windows.Forms.Button buttonGravar;
+        private System.Windows.Forms.TextBox textBoxNomeExame;
+        private System.Windows.Forms.Label label1;
     }
 }

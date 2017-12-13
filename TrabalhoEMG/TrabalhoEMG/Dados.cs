@@ -80,15 +80,7 @@ namespace TrabalhoEMG
             TableClients.Columns.Add(CLIENTS_GENDER);
             TableClients.Columns.Add(CLIENTS_ID);
 
-          /*TableMedicactions = new DataTable(DATATABLE_TERAPIES);
-            TableMedicactions.Columns.Add(MEDICATIONS_NAME);
-            TableMedicactions.Columns.Add(MEDICATIONS_QTD);
-            TableMedicactions.Columns.Add(MEDICATIONS_POSOLOGY);
-            TableMedicactions.Columns.Add(MEDICATIONS_CLIENT_ID);
-            TableMedicactions.Columns.Add(MEDICATIONS_ID);
-            */
             DataSet.Tables.Add(TableClients);
-           // DataSet.Tables.Add(TableMedicactions);
 
             load();
         }

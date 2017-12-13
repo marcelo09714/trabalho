@@ -1,15 +1,9 @@
 <?xml version="1.0" standalone="yes"?>
 <therapies_dataset>
   <Clientes>
-    <Nome>Ana Duarte</Nome>
-    <Data_x0020_de_x0020_Nascimento>01/03/1998 22:45:06</Data_x0020_de_x0020_Nascimento>
+    <Nome>ana</Nome>
+    <Data_x0020_de_x0020_Nascimento>12/12/2017 15:47:30</Data_x0020_de_x0020_Nascimento>
     <Género>Feminino</Género>
-    <ID>1511995569265</ID>
-  </Clientes>
-  <Clientes>
-    <Nome>marcelo ferreira</Nome>
-    <Data_x0020_de_x0020_Nascimento>30/11/2017 18:09:30</Data_x0020_de_x0020_Nascimento>
-    <Género>Masculino</Género>
-    <ID>1512065381908</ID>
+    <ID>1513093663717</ID>
   </Clientes>
 </therapies_dataset>

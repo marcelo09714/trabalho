@@ -63,6 +63,7 @@
     <Compile Include="Exame.Designer.cs">
       <DependentUpon>Exame.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExamesFeitos.cs" />
     <Compile Include="ListaExames.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -28,18 +28,23 @@ namespace TrabalhoEMG
             }
         }
 
-
+        ExamesFeitos examesFeitos;
 
         public ListaExames(Cliente cliente)
         {
             this.cliente = cliente;
             InitializeComponent();
+            examesFeitos = new ExamesFeitos();
+
             this.Text = cliente.Name;
-           
-            /* DataView dataView = dataHelper.DataSet.Tables[DataHelper.DATATABLE_TERAPIES].DefaultView;
-             dataView.RowFilter = string.Format("[{0}] = '{1}'", DataHelper.MEDICATIONS_CLIENT_ID, client.Id);
-             dataGridViewTerapies.DataSource = dataView;
-             */
+
+            
+
+
+           /* DataView dataView =  examesFeitos.DataSet.Tables[ ExamesFeitos.DATATABLE_EXAMES].DefaultView;
+             dataView.RowFilter = string.Format("[{0}] = '{1}'",ExamesFeitos.EXAMES_NAME);
+             dataGridViewExames.DataSource = dataView;
+            */
 
             //Aparecer as horas e o dia no programa
             labelDataListaExames.Text = DateTime.Now.ToLongDateString();
@@ -49,6 +54,13 @@ namespace TrabalhoEMG
             labelDataListaExames.BackColor = Color.Transparent;
             labelHoraListaExames.BackColor = Color.Transparent;
             botaoRetroceder.BackColor = Color.Transparent;
+
+
+            dataGridViewExames.DataSource = examesFeitos.DataSet;
+            dataGridViewExames.DataMember = ExamesFeitos.DATATABLE_EXAMES;
+            dataGridViewExames.AutoGenerateColumns = true;
+            dataGridViewExames.AutoResizeColumns();
+
 
             //conta o tempo
             Timer timer = new Timer();

@@ -32,13 +32,24 @@ namespace TrabalhoEMG
 
             //Aparecer as horas e o dia no programa
             labelData.Text = DateTime.Now.ToLongDateString();
-            labelHora.Text = DateTime.Now.ToLongTimeString();
 
 
             dataGridViewClientes.DataSource = dados.DataSet;
             dataGridViewClientes.DataMember = Dados.DATATABLE_CLIENTS;
             dataGridViewClientes.AutoGenerateColumns = true;
             dataGridViewClientes.AutoResizeColumns();
+
+            //conta o tempo
+            Timer timer = new Timer();
+            timer.Interval = 1000;
+            timer.Start();
+            timer.Tick += Timer_Tick;
+        }
+
+        //contador de tempo
+        void Timer_Tick(object sender, EventArgs e)
+        {
+            labelHora.Text = DateTime.Now.ToLongTimeString();
         }
 
         private void Registo_Load(object sender, EventArgs e)
@@ -124,11 +135,13 @@ namespace TrabalhoEMG
 
                 Cliente cliente = Cliente.readOnDataBase(dados, index);
 
-                Exame exame = new Exame(cliente);
+                ListaExames listaexames = new ListaExames (cliente);
 
-                exame.Show();
+                this.Hide();
+                listaexames.ShowDialog();
 
             }
         }
+        
     }
 }

@@ -68,7 +68,7 @@ namespace TrabalhoEMG
             PlotView myPlot = new PlotView();
 
             //Create Plotmodel object
-            var myModel = new PlotModel { Title = "Simple Plot" };
+            var myModel = new PlotModel { Title = "Exame" };
             myModel.Series.Add(new FunctionSeries(Math.Sin, 0, 10, 0.1, "sin(x)"));
 
             //Assign PlotModel to PlotView
@@ -77,23 +77,12 @@ namespace TrabalhoEMG
             //Set up plot for display
             myPlot.Dock = System.Windows.Forms.DockStyle.Bottom;
             myPlot.Location = new System.Drawing.Point(0, 0);
-            myPlot.Size = new System.Drawing.Size(500, 500);
+            myPlot.Size = new System.Drawing.Size(623, 229);
             myPlot.TabIndex = 0;
 
             //Add plot control to form
             Controls.Add(myPlot);
-            /*
-            //Create a data set to feed to the chart
-            double[] DataArray = new double[] { 1, 2, 3, 5, 4, 3, 2, 1 };
-            double[] DataArray2 = new double[] { 1, 5, 1, 5, 1, 5, 1, 5 };
-
-            for (int i = 0; i & lt; DataArray.GetLength(0) ; i++)
-            {
-                //send X and Y data points to the chart
-                grafico.Series["Primeiro Exame"].Points.AddXY(i, DataArray[i]);
-                grafico.Series["Segundo Exame"].Points.AddXY(i, DataArray2[i]);
-            }
-            */
+           
         }
 
         //botao que serve para voltar atrás e esconde a página onde estavamos 
@@ -103,6 +92,11 @@ namespace TrabalhoEMG
 
             this.Hide();
             listaexames.ShowDialog();
+
+        }
+
+        private void buttonGravar_Click(object sender, EventArgs e)
+        {
 
         }
     }
